@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/coursename"
+        android:layout_width="400dp"
+        android:layout_height="105dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Course Name" />
+
+    <EditText
+        android:id="@+id/coursedur"
+        android:layout_width="400dp"
+        android:layout_height="105dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Course Duration" />
+
+    <EditText
+        android:id="@+id/coursetracks"
+        android:layout_width="400dp"
+        android:layout_height="105dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Course Tracks" />
+
+    <EditText
+        android:id="@+id/coursedes"
+        android:layout_width="400dp"
+        android:layout_height="105dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Course Description" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <!--    <Button-->
+<!--        android:id="@+id/btn1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:backgroundTint="@color/material_dynamic_primary60"-->
+<!--        android:text="Button" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button2"-->
+<!--        android:layout_width="206dp"-->
+<!--        android:layout_height="69dp"-->
+<!--        android:text="Display"-->
+<!--        android:layout_marginStart="100dp"-->
+<!--        android:layout_marginTop="70dp"-->
+<!--        android:backgroundTint="@color/material_dynamic_primary60"/>-->
+</LinearLayout>
